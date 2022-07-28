@@ -523,7 +523,7 @@
   display: block;
   float: right;
 }
-.partners__logo svg {
+.partners__logo img {
   margin: 46px 31px;
 }
 .partners__link {
@@ -606,7 +606,7 @@
     letter-spacing: -0.115385px;
     color: #fbfcfe;
   }
-  .partners__logo svg {
+  .partners__logo img {
     width: 100px;
     height: 20px;
     margin: 10px;
