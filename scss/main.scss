@@ -1,0 +1,39 @@
+@import "header";
+@import "partners";
+@import "implement";
+@import "simple";
+@import "services";
+@import "subscription";
+@import "footer";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #edf3f8;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 40px 165px 0 165px;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 375px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px 30px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 51px 24px;
+  }
+}

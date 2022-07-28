@@ -1,0 +1,120 @@
+.subscription {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 96px;
+  align-items: center;
+
+  &__title {
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    /* identical to box height, or 117% */
+
+    letter-spacing: -0.369231px;
+
+    color: #36536b;
+  }
+
+  &__button {
+    display: flex;
+  }
+
+  &__email {
+    width: 432px;
+    border: none;
+    padding: 14px 27px;
+    border-radius: 24px;
+
+    background: #fbfcfe;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    border-radius: 24px;
+  }
+
+  #subscription__btn {
+    cursor: pointer;
+    margin-left: 273px;
+    margin-top: -1px;
+    position: absolute;
+    border: none;
+    border-radius: 24px;
+    background: #ba4270;
+    padding: 16px 26px;
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    letter-spacing: -0.115385px;
+
+    color: #fbfcfe;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .subscription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__title {
+      margin-bottom: 40px;
+    }
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .subscription {
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+      font-family: "DM Serif Display";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 36px;
+      /* identical to box height, or 112% */
+
+      text-align: center;
+      letter-spacing: -0.246154px;
+
+      color: #36536b;
+    }
+
+    &__button {
+      display: flex;
+      flex-direction: row-reverse;
+    }
+
+    &__email {
+      width: 327px;
+      border: none;
+      padding: 15px 157px 14px 27px;
+      border-radius: 24px;
+
+      background: #fbfcfe;
+      box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+      border-radius: 24px;
+    }
+
+    #subscription__btn {
+      margin-top: 70px;
+      width: 327px;
+      font-family: "Public Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 15px;
+      /* identical to box height */
+
+      text-align: center;
+      letter-spacing: -0.115385px;
+
+      color: #fbfcfe;
+    }
+  }
+}
